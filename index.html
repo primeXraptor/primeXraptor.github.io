@@ -1,1 +1,278 @@
-<h1>Hello World</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Senuth Dayawansa</title>
+
+    <link rel="icon" href="./favicon.ico">
+
+    <link rel="stylesheet" href="./Assets/CSS/style.css"/>
+    <link rel="stylesheet" href="./Assets/CSS/nav.css"/>
+    <link rel="stylesheet" href="./Assets/CSS/screen.css"/>
+    <link rel="stylesheet" href="./Assets/CSS/mediaScreenBreak.css"/>
+    <link rel="stylesheet" href="./Assets/CSS/processSteps.css"/>
+    <link rel="stylesheet" href="./Assets/CSS/faq.css"/>
+    <link rel="stylesheet" href="./Assets/CSS/creations.css"/>
+
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+
+    <script src="https://kit.fontawesome.com/64144f15a2.js" crossorigin="anonymous"></script>
+
+
+    <!-- FONTS -->
+
+    <!--1 MAIN CONTECT [TITLE]-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+    <!--2 CONTENT - HOW PROCESS WORKS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Maven+Pro&display=swap" rel="stylesheet">
+
+
+    <!--3 CONTENT TITLE - HOW PROCESS WORKS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
+    <!--4 HOW PROCESS WORKS [TITLE]-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+
+    <!--5 SCREEN - CONTENT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+<body id="body">
+
+
+
+
+
+
+
+
+
+
+    <div class="homePg" id="homePg">
+        <header>
+            <nav>
+                <i class="fa-solid fa-bars" id="navMenuIcon" onclick="toggleDropdown()"></i>
+                <div class="nav" id="nav">
+
+                    <div class="navBar" id="navBar">
+                        <ul>
+                            <a href="#creationtab" class="navBtnCraetions">CREATIONS</a>
+                            <a href="" class="navBtnAbout">ABOUT</a>
+                            <a href="" class="navBtnAbout">CONTACT</a>
+                        </ul>
+                    </div>
+                    <div class="navIcons" id="navIcons">
+                        <ul>
+                            <a href="" class="navIconsTab"><i class="fa-brands fa-linkedin" id="navIconsTab" onclick="navIconsTabLinkedin()"></i></a>
+                            <a href="" class="navIconsTab"><i class="fa-brands fa-twitter" id="navIconsTab" onclick="navIconsTabTwitter()"></i></a>
+                            <a href="" class="navIconsTab"><i class="fa-brands fa-instagram" id="navIconsTab" onclick="navIconsTabInstagram()"></i></a>
+                            <a href="" class="navIconsTab"><i class="fa-solid fa-envelope" id="navIconsTab" onclick="navIconsTabMail()"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <img src="./Assets/Images/senuth dayawansa logo.png" alt="" class="screenPicBg" id="screenPicBg">
+        <div class="screen" id="screen">
+            <img src="./Assets/Images/senuth dayawansa logo.png" alt="" class="screenPic" id="screenPic">
+            <div class="titleName" id="titleName">SENUTH DAYAWANSA</div>
+            <div class="titleNameDescription" id="titleNameDescription">
+                Looking for a developer? You came to the right place! I can help your next project with HTML / CSS / JavaScript / Python / JAVA. GO CHECK ME ON FIVERR
+                <br> & <br>
+                If you don’t have a design / idea or a layout for your project, I hope to provide you that too.
+            </div>
+            <div class="contactBtnScreen" id="contactBtnScreen">
+                Contact me through:
+                <br>
+                <a href="" class="contactBtnScreenBtn" target="_blank">Fiverr</a> |
+                <a href="" class="contactBtnScreenBtn" target="_blank">Facebook</a> |
+                <a href="" class="contactBtnScreenBtn" target="_blank">Mail</a>
+
+            </div>
+            <i class="fa-solid fa-angles-down fa-fade" id="homePgDownBtn" onclick="scrollhowWork()"></i>
+        </div>
+    </div>
+    
+    
+    <div class="howWork" id="howWork">
+        
+        <div class="titleHowWork">
+            HOW THE PROCESS WORKS?
+        </div>
+        <div class="howWorkCategories">
+
+            <div class="howWorkDesign">
+                <div class="howWorkDesignTitle">Design</div>
+                <div class="howWorkDesignDescription">Design your web app / web page layout [Skip this step if you already have a design].</div>
+            </div>
+            <div class="howWorkSketch">
+                <div class="howWorkSketchTitle">Add HTML</div>
+                <div class="howWorkSketchDescription">I will program the basic structure of your web page by using HTML [or PHP if you requested].</div>
+            </div>
+            <div class="howWorkCSS">
+                <div class="howWorkCSSTitle">Add CSS</div>
+                <div class="howWorkCSSDescription">Add CSS to make look wonderful and colorful your layout.</div>
+            </div>
+            <div class="howWorkJS">
+                <div class="howWorkJSTitle">Add JS</div>
+                <div class="howWorkJSDescription">JavaScript is used to add animations to the page and look interesting to the visitor.</div>
+            </div>
+            <div class="howWorkEnd">
+                <div class="howWorkEndTitle">Finalize the Project</div>
+                <div class="howWorkEndDescription">JavaScript is used to add animations to the page and look interesting to the visitor.</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="faqdiv" id="faqdiv">
+        <div class="faqCategoryTitle">
+            FAQ
+        </div>
+
+        <div class="faqCategory">
+
+
+            <div class="faqtab">
+                <p class="faqtabHeading">How long it will take?</p>
+                <p class="faqtabDescription">It totally depend on your project size. It will averagly take 1 or 2 weeks</p>
+            </div>
+
+            <div class="faqtab">
+                <p class="faqtabHeading">How to choose the best package</p>
+                <p class="faqtabDescription">If you have no idea to choose the best package, let's discuss it. <a href="">Conatct us</a></p>
+            </div>
+
+            <div class="faqtab">
+                <p class="faqtabHeading">What are the package types?</p>
+                <div class="faqtabDescriptionPackageTypes">
+                    <div class="faqtabDescriptionPackageTypes_div">
+                        <p class="faqtabDescriptionPackageTypes_divHeading">GOLD</p>
+                        <p class="faqtabDescriptionPackageTypes_divDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, id.</p>
+                        <button>More info</button>
+                    </div>
+                    <div class="faqtabDescriptionPackageTypes_div">
+                        <p class="faqtabDescriptionPackageTypes_divHeading">DIAMOND</p>
+                        <P class="faqtabDescriptionPackageTypes_divDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, nobis?</P>
+                        <button>More info</button>
+                    </div>
+                    <div class="faqtabDescriptionPackageTypes_div">
+                        <p class="faqtabDescriptionPackageTypes_divHeading">NETHERITE</p>
+                        <p class="faqtabDescriptionPackageTypes_divDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, facilis!</p>
+                        <button>More info</button>
+                    </div>
+                </div>               
+            </div>
+
+            <div class="faqtab">
+                <p class="faqtabHeading">Will you provide Express dilivery in 24 hours?</p>
+                <p class="faqtabDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, provident eum itaque quod iure omnis odit sequi saepe totam alias!</p>
+            </div>
+
+            <div class="faqtab">
+                <p class="faqtabHeading">Where can I order / get your service?</p>
+                <p class="faqtabDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, provident eum itaque quod iure omnis odit sequi saepe totam alias!</p>
+            </div>
+
+            
+        </div>
+        <div class="faqCategorySubmitFAQ_btn">
+            <button class="faqCategorySubmitFAQ_btn" id="faqCategorySubmitFAQ_btn" onclick="faqSubmitBtn()">SUBMIT A QUESTION</button>
+        </div>
+    </div>
+    <div class="faqCategorySubmitFAQ_btn_div" id="faqCategorySubmitFAQ_btn_div">
+        <div class="faqCategorySubmitFAQ_div" id="faqCategorySubmitFAQ_div">
+            <p class="faqCategorySubmitFAQ_divInputNameTxt">
+                NAME
+                <input type="text" class="faqCategorySubmitFAQ_divInputTxt">
+            </p>
+            <p class="faqCategorySubmitFAQ_divInputNameTxt">
+                E Mail
+                <input type="email" class="faqCategorySubmitFAQ_divInputTxt">
+            </p>
+            <p class="faqCategorySubmitFAQ_divInputNameTxt">
+                Question
+                <input type="text" class="faqCategorySubmitFAQ_divInputTxt">
+            </p>
+            <div>
+                <button class="faqCategorySubmitFAQ_div_submitBtn" type="submit">SUBMIT</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="creationstab" id="creationtab">
+        <div class="creationstabHeading">CREATIONS</div>
+
+        <div class="creationstabHeading">JavaScript</div>
+
+        <div class="creationstabCont">
+            <div>
+                <img src="./Assets/Images/senuth dayawansa logo.png" alt="" srcset="">
+                <p>RUN FOR DEATH</p>
+            </div>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officia facilis sequi aperiam architecto, praesentium ea! Aliquid perspiciatis cumque fuga?</P>
+        </div>
+
+        <div class="creationstabCont">
+            <div>
+                <img src="./Assets/Images/senuth dayawansa logo.png" alt="" srcset="">
+                <p>RUN FOR DEATH</p>
+            </div>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officia facilis sequi aperiam architecto, praesentium ea! Aliquid perspiciatis cumque fuga?</P>
+        </div>
+
+        <div class="creationstabHeading">Python</div>
+
+        <div class="creationstabCont">
+            <div>
+                <img src="./Assets/Images/senuth dayawansa logo.png" alt="" srcset="">
+                <p>RUN FOR DEATH</p>
+            </div>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officia facilis sequi aperiam architecto, praesentium ea! Aliquid perspiciatis cumque fuga?</P>
+        </div>
+    </div>
+
+
+
+    <footer class="footer" id="footer">
+        
+        <div>
+            <a href="" class="contactBtnScreenBtn" target="_blank">Fiverr</a> |
+            <a href="" class="contactBtnScreenBtn" target="_blank">Facebook</a> |
+            <a href="" class="contactBtnScreenBtn" target="_blank">Mail</a>
+        </div>
+        <div class="copiright">Copiright © Senuth Dayawansa 2023. All Rights Reserved.</div>
+    </footer>
+
+
+    
+
+
+    <script src="./Assets/JS/btnScript.js"></script>
+    <script src="./Assets/JS/scrollScript.js"></script>
+
+
+
+</body>
+</html>
